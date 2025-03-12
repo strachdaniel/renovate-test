@@ -17,6 +17,12 @@
     {
       "matchPackageNames": ["nodemon", "react"],
       "prPriority": 10
+    },
+    {
+      "matchPackageNames": ["react-scripts"]
+    },
+    {
+      "matchPackageNames": ["react-dom"]
     }
   ]
 }

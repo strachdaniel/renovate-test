@@ -22,7 +22,9 @@
       "matchPackageNames": ["react-scripts"]
     },
     {
-      "matchPackageNames": ["react-dom"]
+      "matchPackageNames": ["react-dom"],
+      "prConcurrentLimit": 1,
+      "prHourlyLimit": 1
     }
   ]
 }

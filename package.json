@@ -1,0 +1,4 @@
+{
+  "name": "renovate-test",
+  "packageManager": "yarn@4.6.0"
+}

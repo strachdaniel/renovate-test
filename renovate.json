@@ -23,8 +23,14 @@
     },
     {
       "matchPackageNames": ["react-dom"],
+      "groupName": "react-dom-group",
       "prConcurrentLimit": 1,
       "prHourlyLimit": 1
+    },
+    {
+      "matchPackageNames": ["express"],
+      "prConcurrentLimit": 0,
+      "prHourlyLimit": 0
     }
   ]
 }

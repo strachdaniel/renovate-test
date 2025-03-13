@@ -7,7 +7,7 @@
     },
     {
       "matchPackageNames": ["chalk"],
-      "prConcurrentLimit": 3,
+      "prConcurrentLimit": 2,
       "prHourlyLimit": 2
     },
     {
@@ -24,13 +24,13 @@
     {
       "matchPackageNames": ["react-dom"],
       "groupName": "react-dom-group",
-      "prConcurrentLimit": 1,
-      "prHourlyLimit": 1
+      "prConcurrentLimit": null,
+      "prHourlyLimit": null
     },
     {
       "matchPackageNames": ["express"],
-      "prConcurrentLimit": 0,
-      "prHourlyLimit": 0
+      "prConcurrentLimit": null,
+      "prHourlyLimit": null
     }
   ]
 }
